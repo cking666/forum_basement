@@ -1,0 +1,56 @@
+{
+    "name": "cyrildewit/laravel-page-view-counter",
+    "description": "Simple package for storing page views of Eloquent models into the database",
+    "homepage": "https://github.com/cyrildewit/laravel-page-view-counter",
+    "keywords": [
+        "cyrildewit",
+        "laravel",
+        "pageviews",
+        "visits",
+        "hits",
+        "model"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cyril de Wit",
+            "email": "info@cyrildewit.nl",
+            "homepage": "http://cyrildewit.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^1.22"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7.0",
+        "orchestra/testbench": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CyrildeWit\\PageViewCounter\\": "src/PageViewCounter"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CyrildeWit\\PageViewCounter\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CyrildeWit\\PageViewCounter\\PageViewCounterServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
