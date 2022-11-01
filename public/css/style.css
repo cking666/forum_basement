@@ -94,7 +94,7 @@ body {
       padding: 32px;
       font-size: 23px;
       text-align: center;
-      color: #1530ca;
+      color: #fff;
   }
   .footer_sosial_profile a{
       padding: 18px;
@@ -142,10 +142,10 @@ body {
     font-size: 14px;
   }
   .forum_title a, .forum_by a{
-    color: #2ab27b;
+    color: #1530ca;
   }
   #tc_thead {
-      background: #2ab27b;
+      background: #1530ca;
       color: #f5f8fa;
       font-size: 14px;
   }
@@ -164,8 +164,8 @@ body {
   .page-item.active .page-link {
       z-index: 1;
       color: #fff;
-      background-color: #2ab27b;
-      border-color: #2ab27b;
+      background-color: #1530ca;
+      border-color: #1530ca;
   }
   .page-item.active .page-link:hover {
       z-index: 1;
@@ -179,15 +179,15 @@ body {
   
   .badge-success {
       color: #fff;
-      background: #11998e;
-      background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
-      background: linear-gradient(to right, #25d668, #11998e);
+      background: #3513cf;
+      background: -webkit-linear-gradient(to right, #1530ca, #11998e);
+      background: linear-gradient(to right, #1530ca, #11998e);
   }
   #btn_add{
     font-size: 20px;
   }
   #btn_add:hover{
-   color: #2ab27b;
+   color: #1530ca;
   }
   
   #rating{
@@ -197,8 +197,8 @@ body {
   .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
       z-index: 3;
       color: #fff;
-      background-color: #2ab27b;
-      border-color: #2ab27b;
+      background-color: #1530ca;
+      border-color: #1530ca;
       cursor: default;
   }
   
@@ -210,7 +210,7 @@ body {
      
       padding-left: 15px;
       font-size: 16px;
-      color: #2ab27b; 
+      color: #1530ca; 
    
   }
   .tc_head_title{
@@ -232,8 +232,8 @@ body {
   }
   #tc_jumbotron_profile {
      background: #11998e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #1530ca, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1530ca, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
       box-shadow: 0 5px 10px #888888;
       border-bottom-right-radius: 0;
@@ -293,7 +293,7 @@ body {
       padding: .5rem .75rem;
       margin-left: -1px;
       line-height: 1.25;
-      color: #2ab27b;
+      color: #1530ca;
       background-color: #fff;
       border: 1px solid #dee2e6;
   }
@@ -313,7 +313,7 @@ body {
   }
   #upload_image {
       font-size: 28px;
-      color: #2ab17b;
+      color: #1530ca;
       cursor: pointer;
       padding-bottom: 11px;
   }
@@ -375,7 +375,7 @@ body {
   input[type=search]:focus {
     width: 130px;
     background-color: #fff;
-    border-color: #66CC75;
+    border-color: #1530ca;
     
     -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
     -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
@@ -429,7 +429,7 @@ body {
   }
   
   #item-hover:hover{
-    background: #2ab27b;
+    background: #1530ca;
     color: #fff;
   }
   

@@ -25,7 +25,7 @@
                                             <a href="#"> <i class="fa fa-twitter"></i></a>
                                             <a href="#"> <i class="fa fa-google-plus"></i></a>
                                         </div>
-                                        <a href="#" class="badge badge-success">telukcoding</a> |
+                                        <a href="#" class="badge badge-success" >{{$forums->user->name}}</a> |
                                         <small>{{$forums->created_at->diffForHumans()}}</small> |
                                         <small>{{$forums->getPageViews()}} Views</small> |
                                         <small>{{$forums->comments->count()}} Comment</small> |
@@ -84,7 +84,7 @@
                             @forelse($forums->comments as $comment)
                             <div class="card">
                                 <div class="card-header"
-                                    style=" background-color: #2ab27b; color: #fff; border-top-right-radius: 0px; border-top-left-radius: 0px;">
+                                    style=" background-color: rgb(1 51 233); color: #fff; border-top-right-radius: 0px; border-top-left-radius: 0px;">
                                     <i class="fa fa-clock-o" style="color: #eee"></i> <small
                                         style="color: #eee">{{$comment->created_at->diffForHumans()}}</small>
                                 </div>
