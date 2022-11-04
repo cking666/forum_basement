@@ -72,7 +72,7 @@
                                         </td>
                                         <td style="text-align: center"><small> {{$forum->getPageViews()}}</small></td>
                                         <td>
-                                            
+
                                             <div class="forum_by">
                                                 <small
                                                     style="margin-bottom: 0; color: #666">{{$forum->created_at->diffForHumans()}}</small>
